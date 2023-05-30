@@ -47,6 +47,7 @@ Outputs optimized svg assets into an optimized directory so you can use with src
     If I had more time I would do the following:
 
     - Update project so that we're using absolute paths with @ notation.
+        - This is why I have file structure where the folder is the name of the component and the js file is called index.js
     - Optimize large SVGs.
     - Install dependencies for Jest testing frame work.
     - Install JsDoc to document each component and its intentions.
