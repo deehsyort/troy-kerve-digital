@@ -45,11 +45,14 @@ Outputs optimized svg assets into an optimized directory so you can use with src
 
 ## TODOs
     If I had more time I would do the following:
+
     - Update project so that we're using absolute paths with @ notation.
     - Optimize large SVGs.
     - Install dependencies for Jest testing frame work.
     - Install JsDoc to document each component and its intentions.
     - Improve the look of the scrollbar
+    - Add pages for the links
+    - Create scrollTo function for the homepage (Not sure if this was part of the spec, it doesn't mention it)
 
     - If I had different layouts I would create a pages directory but im omitting that for now.
     - If I had more than one page I would create a pages directory but im omitting that for now.
