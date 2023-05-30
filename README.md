@@ -50,3 +50,9 @@ Outputs optimized svg assets into an optimized directory so you can use with src
     - Install dependencies for Jest testing frame work.
     - Install JsDoc to document each component and its intentions.
     - Improve the look of the scrollbar
+
+    - If I had different layouts I would create a pages directory but im omitting that for now.
+    - If I had more than one page I would create a pages directory but im omitting that for now.
+    - If I had more than one hook I would create a hooks directory but im omitting that for now.
+    - If I had more than one helper function I would create a lib directory but im omitting that for now.
+    - If I was using something like scss modules I would have styles directory but im omitting that for now.
