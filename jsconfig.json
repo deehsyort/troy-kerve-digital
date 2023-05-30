@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@components/*": ["components/*"],
+            "@layouts/*": ["layouts/*"],
+            "@pages/*": ["pages/*"]
+        }
+    },
+    "exclude": [
+        "./components/**/*.{js,ts,jsx,tsx}"
+    ]
+}
