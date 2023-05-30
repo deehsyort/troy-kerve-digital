@@ -20,4 +20,28 @@ body {
   color: rgb(var(--foreground-rgb));
   overflow: hidden;
   background-color: #FFFFFF;
+  scrollbar-width: none;
+}
+
+/* Hide the default scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Add a custom scrollbar */
+.scrollbar {
+  scrollbar-width: 10px;
+  scrollbar-color: #ffffff;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 3px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background-color: #2C3655;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #d1d5db;
 }

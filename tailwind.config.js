@@ -102,14 +102,16 @@ module.exports = {
         'nav': '52px',
         'hamburger': '15px',
         'hamburger-bar': '2px',
-        'menu-close': '17px'
+        'menu-close': '17px',
+        'big-links': '238px',
+        'big-links-tablet': '340px',
+        'big-links-desktop': '458px'
       },
       width: {
         'hamburger': '30px',
         'menu-close': '18px',
         'footer-links': '680px',
         'big-links': '232px',
-        // 'small-links': '',
       },
       borderRadius: {
         'xs': '1px'

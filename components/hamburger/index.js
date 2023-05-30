@@ -56,7 +56,7 @@ const HamburgerMenu = () => {
                             </button>
                         </span>
                     </div>
-                    <ul className="font-playfair text-menu-link-mobile md:text-menu-link-tablet lg:text-menu-link text-white text-center mb-menu-mobile md:mb-menu-tablet lg:mb-menu">
+                    <ul className="font-playfair text-menu-link-mobile md:text-menu-link-tablet lg:text-menu-link text-white text-center mb-menu-mobile md:mb-menu-tablet lg:mb-menu h-big-links md:h-big-links-tablet lg:h-big-links-desktop overflow-y-auto scrollbar">
                         <li>
                             <Link className='hover:text-marble-pink' href=''>Work</Link>
                         </li>                        
