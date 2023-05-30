@@ -1,5 +1,5 @@
 import Heading from '.'
-import notes from '../heading/notes.md'
+import notes from '../heading/notes.mdx'
 
 export default {
     title: 'Components/Heading',
