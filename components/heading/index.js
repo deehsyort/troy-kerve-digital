@@ -1,7 +1,7 @@
 import propTypes from 'prop-types'
 
-const Heading = ({ as, highlighted, highlightAll, children, className }) => {
-    const validHeadingLevels = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']
+const Heading = ({ as = 'h1', highlighted = '', highlightAll = false, children, className = 'text-marble' }) => {
+    const validHeadingLevels = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
     const safeHeading = as ? as.toLowerCase() : ''
     const Title = validHeadingLevels.includes(safeHeading) ? safeHeading : 'p'
 
@@ -30,13 +30,6 @@ Heading.propTypes = {
     className: propTypes.string,
     highlightAll: propTypes.bool,
     highlighted: propTypes.string
-}
-
-Heading.defaultProps = {
-    as: 'h1',
-    highlightAll: false,
-    highlighted: '',
-    className: 'text-marble',
 }
 
 export default Heading;

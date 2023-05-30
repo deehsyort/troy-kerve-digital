@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
             <header className='flex justify-between items-center h-nav absolute top-0 z-10 bg-offwhite w-full p-mobile-x md:p-tablet-x lg:p-desktop-x'>
-                <Heading as="h1">marble</Heading>
+                <Heading as="p">marble</Heading>
                 <Nav/>
                 <HamburgerMenu/>
             </header>
