@@ -105,7 +105,7 @@ module.exports = {
         'menu-close': '17px',
         'big-links': '238px',
         'big-links-tablet': '340px',
-        'big-links-desktop': '458px'
+        'big-links-desktop': '460px'
       },
       width: {
         'hamburger': '30px',
