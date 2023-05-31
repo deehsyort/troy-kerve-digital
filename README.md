@@ -48,6 +48,7 @@ Generate documentation based off of the comments in the project
 ```bash
 npm run docs
 ```
+P.S. I have already ran this command and generated docs which are now being hosted using github pages which can be found [here](https://deehsyort.github.io/troy-kerve-digital/)
 
 ## TODOs
     If I had more time I would do the following:
@@ -56,8 +57,6 @@ npm run docs
         - This is why I have file structure where the folder is the name of the component and the js file is called index.js
     - Optimize large SVGs.
     - Install dependencies for Jest testing frame work.
-    - Install JsDoc to document each component and its intentions.
-    - Improve the look of the scrollbar
     - Add pages for the links
     - Create scrollTo function for the homepage (Not sure if this was part of the spec, it doesn't mention it)
     - make an icon component
