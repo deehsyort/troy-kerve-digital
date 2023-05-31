@@ -54,12 +54,11 @@ P.S. I have already ran this command and generated docs which are now being host
     If I had more time I would do the following:
 
     - Update project so that we're using absolute paths with @ notation.
-        - This is why I have file structure where the folder is the name of the component and the js file is called index.js
     - Optimize large SVGs.
-    - Install dependencies for Jest testing frame work.
+    - Add dependencies for Jest testing frame work.
     - Add pages for the links
-    - Create scrollTo function for the homepage (Not sure if this was part of the spec, it doesn't mention it)
-    - make an icon component
+    - Add scrollTo function for the homepage (Not sure if this was part of the spec)
+    - Create an icon component
 
     - If I had different layouts I would create a pages directory but im omitting that for now.
     - If I had more than one page I would create a pages directory but im omitting that for now.
