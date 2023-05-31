@@ -1,7 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting started
+## Brief
+To build part of a responsive web page with high attention to design detail and layout. The key thing is that the build matches the designs well, and responds well across different devices with different screen sizes.
 
+## Design
+Based off of the figma designs [here](https://www.figma.com/file/mzzbPD8qZXFghOYqIDiUDW/Kerve-Test---Troy?type=design&node-id=3338-7677&t=bx2yPIwkr5OERuF1-0)
+
+## Getting started
 Clone the directory
 
 ```bash
@@ -50,18 +55,22 @@ npm run docs
 ```
 P.S. I have already ran this command and generated docs which are now being hosted using github pages which can be found [here](https://deehsyort.github.io/troy-kerve-digital/)
 
+
+## Time elapsed
+Approximately 2 hours
+
 ## TODOs
-    If I had more time I would do the following:
+If I had more time I would do the following:
 
-    - Update project so that we're using absolute paths with @ notation.
-    - Optimize large SVGs.
-    - Add dependencies for Jest testing frame work.
-    - Add pages for the links
-    - Add scrollTo function for the homepage (Not sure if this was part of the spec)
-    - Create an icon component
+- Update project so that we're using absolute paths with @ notation.
+- Optimize large SVGs.
+- Add dependencies for Jest testing frame work.
+- Add pages for the links
+- Add scrollTo function for the homepage (Not sure if this was part of the spec)
+- Create an icon component
 
-    - If I had different layouts I would create a pages directory but im omitting that for now.
-    - If I had more than one page I would create a pages directory but im omitting that for now.
-    - If I had more than one hook I would create a hooks directory but im omitting that for now.
-    - If I had more than one helper function I would create a lib directory but im omitting that for now.
-    - If I was using something like scss modules I would have styles directory but im omitting that for now.
+- If I had different layouts I would create a pages directory but im omitting that for now.
+- If I had more than one page I would create a pages directory but im omitting that for now.
+- If I had more than one hook I would create a hooks directory but im omitting that for now.
+- If I had more than one helper function I would create a lib directory but im omitting that for now.
+- If I was using something like scss modules I would have styles directory but im omitting that for now.
