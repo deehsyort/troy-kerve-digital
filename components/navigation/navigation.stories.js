@@ -12,6 +12,11 @@ export default {
     },
 }
 
+/**
+ * Template function for the navigation component.
+ * @param {Object} args - The component arguments.
+ * @returns {JSX.Element} The rendered navigation component.
+ */
 const Template = (args) => <Nav as="h1" {...args}>Nav</Nav>
 
 export const nav = Template.bind({})

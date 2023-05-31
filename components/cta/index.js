@@ -1,5 +1,10 @@
 import Image from 'next/image'
 
+/**
+ * Cta component.
+ * @component
+ * @returns {JSX.Element} The rendered Cta component.
+ */
 const Cta = () => {
     return (
         <>

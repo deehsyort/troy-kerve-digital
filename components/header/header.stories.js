@@ -12,6 +12,11 @@ export default {
     },
 }
 
+/**
+ * Template function for the header component.
+ * @param {Object} args - The component arguments.
+ * @returns {JSX.Element} The rendered header component.
+ */
 const Template = (args) => <Header {...args} />
 
 export const header = Template.bind({})

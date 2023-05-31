@@ -1,16 +1,21 @@
-/** @type { import('@storybook/nextjs').StorybookConfig } */
+/**
+ * Storybook configuration object.
+ * @type {import('@storybook/nextjs').StorybookConfig}
+ */
 
 const config = {
     stories: [
-        '../stories/**/*.stories.@(js|jsx|ts|tsx|mdx|md)',
-        '../components/**/*.stories.md',
         '../components/**/*.stories.js',
+        '../components/**/*.stories.md',
+        '../components/container/container.stories.js',
         '../components/cta/cta.stories.js',
         '../components/hamburger/hamburger.stories.js',
         '../components/header/header.stories.js',
         '../components/heading/heading.stories.js',
         '../components/hero/hero.stories.js',
         '../components/navigation/navigation.stories.js',
+        '../components/wrapper/wrapper.stories.js',
+        '../stories/**/*.stories.@(js|jsx|ts|tsx|mdx|md)',
     ],
     addons: [
         '@storybook/addon-links',

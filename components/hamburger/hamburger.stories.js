@@ -12,6 +12,11 @@ export default {
     },
 }
 
+/**
+ * Template function for the hamburger component.
+ * @param {Object} args - The component arguments.
+ * @returns {JSX.Element} The rendered hamburger component.
+ */
 const Template = (args) => <Hamburger {...args} />
 
 export const hamburger = Template.bind({})

@@ -3,6 +3,9 @@ import Hero from '../components/hero'
 import Container from '../components/container'
 import Cta from '../components/cta'
 
+/**
+ * Home component for the homepage.
+ */
 export default function Home() {
   return (
     <Wrapper>

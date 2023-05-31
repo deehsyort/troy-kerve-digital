@@ -12,6 +12,11 @@ export default {
     },
 }
 
+/**
+ * Template function for the cta component.
+ * @param {Object} args - The component arguments.
+ * @returns {JSX.Element} The rendered cta component.
+ */
 const Template = (args) => <Cta {...args} />
 
 export const cta = Template.bind({})

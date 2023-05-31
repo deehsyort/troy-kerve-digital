@@ -1,4 +1,7 @@
-/** @type { import('@storybook/react').Preview } */
+/**
+ * Storybook preview configuration object.
+ * @type {import('@storybook/react').Preview}
+ */
 
 import '!style-loader!css-loader!postcss-loader!../app/globals.css';
 

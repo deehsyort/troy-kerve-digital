@@ -43,6 +43,12 @@ npm run svgo
 ```
 Outputs optimized svg assets into an optimized directory so you can use with src attribute.
 
+## JSDoc Generate documentation
+Generate documentation based off of the comments in the project
+```bash
+npm run docs
+```
+
 ## TODOs
     If I had more time I would do the following:
 
@@ -54,6 +60,7 @@ Outputs optimized svg assets into an optimized directory so you can use with src
     - Improve the look of the scrollbar
     - Add pages for the links
     - Create scrollTo function for the homepage (Not sure if this was part of the spec, it doesn't mention it)
+    - make an icon component
 
     - If I had different layouts I would create a pages directory but im omitting that for now.
     - If I had more than one page I would create a pages directory but im omitting that for now.

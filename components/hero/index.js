@@ -1,6 +1,13 @@
 import propTypes from 'prop-types'
 import Image from 'next/image'
 
+/**
+ * Hero component.
+ * @component
+ * @param {Object} props - The component props.
+ * @param {boolean} props.hasHeading - Determines whether to display the heading in the hero section.
+ * @returns {JSX.Element} The rendered Hero component.
+ */
 const Hero = ({ hasHeading }) => {
     return (
         <>
@@ -40,7 +47,14 @@ const Hero = ({ hasHeading }) => {
     )
 }
 
+/**
+ * PropTypes for the Hero component.
+ * @property {boolean} hasHeading - Determines whether to display the heading in the hero section.
+ * @property {string} alt - Sets the text for the alt attribute
+ * @property {string} src - Setrs the src path for the src attribute
+ */
 Hero.propTypes = {
+    hasHeading: propTypes.bool,
     alt: propTypes.string,
     src: propTypes.string
 }

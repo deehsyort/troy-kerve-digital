@@ -2,6 +2,12 @@ import Nav from '../navigation'
 import Heading from '../heading'
 import HamburgerMenu from '../hamburger'
 
+/**
+ * Header component.
+ * @component
+ * @returns {JSX.Element} The rendered Header component.
+ */
+
 const Header = () => {
     return (
         <>

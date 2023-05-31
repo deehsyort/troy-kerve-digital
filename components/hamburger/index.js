@@ -1,14 +1,26 @@
 "use client" // This is a client component
-
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Heading from '../heading'
 import Nav from '../navigation'
 
+/**
+ * HamburgerMenu component.
+ * @component
+ * @returns {JSX.Element} The rendered HamburgerMenu component.
+ */
 const HamburgerMenu = () => {
+    /**
+     * State for the menu open/closed status.
+     * @type {boolean}
+     */
     const [isOpen, setIsOpen] = useState(false)
 
     useEffect(() => {
+    /**
+     * Event listener for the Escape key to close the menu.
+     * @param {KeyboardEvent} event - The keydown event object.
+     */
       const handleEscapeKey = (event) => {
         if (event.key === 'Escape') {
           setIsOpen(false);
@@ -24,6 +36,9 @@ const HamburgerMenu = () => {
       }
     }, [isOpen])
   
+    /**
+     * Toggles the menu open/closed status.
+     */
     const toggleMenu = () => {
       setIsOpen(!isOpen)
     }
